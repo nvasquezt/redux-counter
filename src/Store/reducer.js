@@ -11,9 +11,11 @@ function reducer(state = initialState, action) {
             return {...state, counter: state.counter - state.setInter}
         case 'SET_INTERVAL':
             return {...state, setInter: action.payload}
+        case 'RESET':
+            return {...state, counter: 0}
         default:
             return state;
-    }
+        }
 }
 
 

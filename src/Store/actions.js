@@ -7,6 +7,8 @@ const Down = () => {
 const Interval = (payload) => {
     return {type: 'SET_INTERVAL', payload};
 }
+const Reset = () => {
+    return {type: 'RESET'};
+}
 
-
-export {Up, Down, Interval};
+export {Up, Down, Interval, Reset};

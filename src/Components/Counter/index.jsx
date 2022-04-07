@@ -13,9 +13,9 @@ const Counter = () => {
   return (
     <div>
         <h1>Count is in: {countSelector}</h1>
-        <h1>Intervalo de conteo: {intervalSelector}</h1>
-        <label htmlFor="inputCounter">Agrega el número </label>
-        <input type="number" id="inputCounter" onChange={onHandleChange} placeholder='Número de intervalo'/>
+        <h1>Interval counter: {intervalSelector}</h1>
+        <label htmlFor="inputCounter">Set interval: </label>
+        <input type="number" id="inputCounter" onChange={onHandleChange} placeholder='add number...'/>
         
     </div>
   )

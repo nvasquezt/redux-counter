@@ -9,7 +9,7 @@ const ButtonIncrement = () => {
     }
   return (
     <div>
-        <button onClick={handleClickIncrement} >+++</button>
+        <button onClick={handleClickIncrement} >Go up!</button>
     </div>
   )
 }

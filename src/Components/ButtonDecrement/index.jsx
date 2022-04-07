@@ -9,7 +9,7 @@ const ButtonDecrement = () => {
     }
   return (
     <div>
-        <button onClick={handleClickDecrement}>---</button>
+        <button onClick={handleClickDecrement}>Not much...</button>
     </div>
   )
 }
